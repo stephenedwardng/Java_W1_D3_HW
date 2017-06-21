@@ -13,7 +13,19 @@ public abstract class Kaiju {
     }
 
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public int getHealthValue() {
+        return healthValue;
+    }
 
+    public void setHealthValue(int healthValue) {
+        this.healthValue = healthValue;
+    }
 }
