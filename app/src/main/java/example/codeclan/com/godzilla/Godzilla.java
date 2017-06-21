@@ -14,7 +14,7 @@ public class Godzilla extends Kaiju implements Attack{
     }
 
     public int getDestructiveForce(){
-        return 50;
+        return destructiveForce;
     }
 
     public String roar(){
