@@ -6,6 +6,8 @@ package example.codeclan.com.godzilla;
 
 public class SkyScraper extends HumanConstructs implements Destroyable{
 
+    int destructiveForce;
+
     public SkyScraper(String type, int healthValue, int destructiveForce){
         super(type, healthValue);
         this.destructiveForce = destructiveForce;
